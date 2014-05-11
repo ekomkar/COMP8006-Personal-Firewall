@@ -1,0 +1,21 @@
+#
+#Author: Jivanjot S. Brar | A00774427
+#Date: 01.25.2014
+#
+
+The Contents of the disk including this file are Assign1-Personal_Firewall.sh, 
+monitor.sh, Assign1-Design-Document.docx and Assign1-Testing-Document.docx
+
+In order to set up the firewall, you simple need to give the executable 
+permissions to the Assign1-Personal_Firewall.sh, see the example below
+chmod +x Assign1-Personal_Firewall.sh
+
+Before you run the firewall script make sure monitor.sh script is in the
+same location as the firewall script
+and then just run the script as shown below
+./Assign1-Personal_Firewall.sh
+
+Once the firewall rules are deployed, the script will fire monitor.sh 
+script and it will begin showing live updates of iptables data.
+
+The monitor.sh script can be turned off by pressing CTRL + C. 
